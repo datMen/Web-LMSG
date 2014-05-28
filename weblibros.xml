@@ -11,6 +11,7 @@
                 </autor>
                 <genero>Novela</genero>
                 <imagen>el_guardian_entre_el_centeno.jpg</imagen>
+                <id>1</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos>26</numCapitulos>
@@ -23,13 +24,14 @@
         </libro>
         <libro>
             <datosPrincipales>
-                <titulo>libro2</titulo>
+                <titulo>El lobo estepario</titulo>
                 <autor>
-                    <nombre></nombre>
-                    <apellidos></apellidos>
+                    <nombre>Hermann</nombre>
+                    <apellidos>Hesse</apellidos>
                 </autor>
                 <genero></genero>
-                <imagen></imagen>
+                <imagen>el_lobo_estepario.jpg</imagen>
+                <id>2</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>

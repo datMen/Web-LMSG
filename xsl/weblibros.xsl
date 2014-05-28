@@ -16,16 +16,15 @@
         </html>
     </xsl:template>
     <xsl:template match='libro'>
-        <div class="libro-box">
-            <div class="libro-head">
-                <b>Título: <xsl:value-of select='datosPrincipales/titulo' /></b>
-                <b>Autor: <xsl:value-of select='datosPrincipales/autor/nombre' /> <xsl:value-of select='datosPrincipales/autor/apellidos' /></b>
-                <b>Género: <xsl:value-of select='datosPrincipales/genero' /></b>
+        <div class="libro-box" id="{datosPrincipales/id}">
+            <div class="libro-img" id="{datosPrincipales/id}">
+                <img id="{datosPrincipales/id}" src="img/{datosPrincipales/imagen}" alt="Imagen de {datosPrincipales/titulo}" title="Imagen de {datosPrincipales/titulo}" />
             </div>
-            <div class="libro-img">
-                <img src="img/{datosPrincipales/imagen}" alt="Imagen de {datosPrincipales/titulo}" title="Imagen de {datosPrincipales/titulo}" />
+            <div class="libro-head" id="{datosPrincipales/id}">
+                <p><b>Título: </b> <xsl:value-of select='datosPrincipales/titulo' /></p>
+                <p><b>Autor: </b> <xsl:value-of select='datosPrincipales/autor/nombre' /><xsl:value-of select='datosPrincipales/autor/apellidos' /></p>
+                <p><b>Género: </b> <xsl:value-of select='datosPrincipales/genero' /></p>
             </div>
         </div>
-        <br/>
     </xsl:template>
 </xsl:stylesheet>
