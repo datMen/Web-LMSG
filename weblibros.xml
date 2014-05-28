@@ -38,7 +38,7 @@
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -51,13 +51,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>3</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -70,13 +71,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>4</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -89,13 +91,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>5</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -108,13 +111,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>6</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -127,13 +131,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>7</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -146,13 +151,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>8</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -165,13 +171,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>9</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -184,13 +191,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>10</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -203,13 +211,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>11</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -222,13 +231,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>12</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -241,13 +251,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>13</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -260,13 +271,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>14</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -279,13 +291,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>15</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -298,13 +311,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>16</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -317,13 +331,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>17</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -336,13 +351,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>18</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -355,13 +371,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>19</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
@@ -374,13 +391,14 @@
                 </autor>
                 <genero></genero>
                 <imagen></imagen>
+                <id>20</id>
             </datosPrincipales>
             <metadatos>
                 <numCapitulos></numCapitulos>
                 <numPaginas></numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
