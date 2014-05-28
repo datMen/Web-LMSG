@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="weblibros.xsl" type="text/xsl"?>
+<?xml-stylesheet href="xsl/weblibros.xsl" type="text/xsl"?>
 <weblibros>
     <libros>
         <libro>
             <datosPrincipales>
-                <titulo>libro1</titulo>
+                <titulo>El guardián entre el centeno</titulo>
                 <autor>
-                    <nombre></nombre>
-                    <apellidos></apellidos>
+                    <nombre>J. D.</nombre>
+                    <apellidos>Salinger</apellidos>
                 </autor>
-                <genero></genero>
-                <imagen></imagen>
+                <genero>Novela</genero>
+                <imagen>el_guardian_entre_el_centeno.jpg</imagen>
             </datosPrincipales>
             <metadatos>
-                <numCapitulos></numCapitulos>
-                <numPaginas></numPaginas>
+                <numCapitulos>26</numCapitulos>
+                <numPaginas>272</numPaginas>
             </metadatos>
             <social>
-                <likes></likes>
+                <likes>0</likes>
                 <links></links>
             </social>
         </libro>
