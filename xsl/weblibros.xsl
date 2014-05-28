@@ -18,12 +18,15 @@
     <xsl:template match='libro'>
         <div class="libro-box" id="{datosPrincipales/id}">
             <div class="libro-img" id="{datosPrincipales/id}">
-                <img id="{datosPrincipales/id}" src="img/{datosPrincipales/imagen}" alt="Imagen de {datosPrincipales/titulo}" title="Imagen de {datosPrincipales/titulo}" />
+                <a href="#"><img id="{datosPrincipales/id}" src="img/{datosPrincipales/imagen}" alt="Imagen de {datosPrincipales/titulo}" title="Imagen de {datosPrincipales/titulo}" /></a>
             </div>
             <div class="libro-head" id="{datosPrincipales/id}">
                 <p><b>Título: </b> <xsl:value-of select='datosPrincipales/titulo' /></p>
                 <p><b>Autor: </b> <xsl:value-of select='datosPrincipales/autor/nombre' /><xsl:value-of select='datosPrincipales/autor/apellidos' /></p>
                 <p><b>Género: </b> <xsl:value-of select='datosPrincipales/genero' /></p>
+                <div class="likes" style="background-image: url('img/heart.png');">
+                    <b><xsl:value-of select='social/likes' /></b>
+                </div>
             </div>
         </div>
     </xsl:template>

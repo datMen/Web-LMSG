@@ -1,24 +1,22 @@
 var clicked = false;
 $(".libro-box").click(function() {
+    id = $(this).attr('id');
     if (!clicked) {
-        id = $(this).attr('id');
         $( ".libro-box" ).filter("#"+id).finish();
         $( ".libro-box" ).filter("#"+id).animate({
-            width: $( ".libro-box" ).filter("#"+id).width()+300
+            width: $( ".libro-head" ).filter("#"+id).width()+($( ".libro-img" ).filter("#"+id).width()*2)
         }, 200, function() {
             $( ".libro-head" ).filter("#"+id).fadeIn( "slow" , 0, function() {});
         }); 
-        clicked = true
+        clicked = true;
     }
-}).mouseleave(function() {
-    if (clicked) {
-        id = $(this).attr('id');
+    else if (clicked) {
         $( ".libro-box" ).filter("#"+id).finish();
         $( ".libro-head" ).filter("#"+id).css("display", "none");
         $( ".libro-box" ).filter("#"+id).animate({
-            width: $( ".libro-box" ).filter("#"+id).width()-300
+            width:  $( ".libro-img" ).filter("#"+id).width()
         }, 200, function() {
         }); 
-        clicked = false
+        clicked = false;
     }
 });
