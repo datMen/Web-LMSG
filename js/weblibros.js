@@ -7,16 +7,17 @@ $(".libro-box").click(function() {
             width: $( ".libro-head" ).filter("#"+id).width()+($( ".libro-img" ).filter("#"+id).width()*2)
         }, 200, function() {
             $( ".libro-head" ).filter("#"+id).fadeIn( "slow" , 0, function() {});
-        }); 
+        });
         clicked = true;
     }
-    else if (clicked) {
+}).mouseleave(function() {
+    id = $(this).attr('id');
+    if (clicked) {
         $( ".libro-box" ).filter("#"+id).finish();
         $( ".libro-head" ).filter("#"+id).css("display", "none");
         $( ".libro-box" ).filter("#"+id).animate({
             width:  $( ".libro-img" ).filter("#"+id).width()
-        }, 200, function() {
-        }); 
+        }, 200);
         clicked = false;
     }
 });
