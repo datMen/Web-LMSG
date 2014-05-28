@@ -5,6 +5,8 @@
             <head>
                 <title>WebLibros</title>
                 <link rel="stylesheet" type="text/css" href="css/weblibros.css" />
+                <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+                <script type="text/javascript" src="js/weblibros.js"></script>
             </head>
             <body>
                 <xsl:for-each select='libros'>
@@ -14,7 +16,7 @@
         </html>
     </xsl:template>
     <xsl:template match='libro'>
-        <div cass="libro-box">
+        <div class="libro-box">
             <div class="libro-head">
                 <b>Título: <xsl:value-of select='datosPrincipales/titulo' /></b>
                 <b>Autor: <xsl:value-of select='datosPrincipales/autor/nombre' /> <xsl:value-of select='datosPrincipales/autor/apellidos' /></b>
