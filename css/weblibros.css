@@ -38,6 +38,12 @@
     color: black;
 }
 
+.numCapitulos {
+    font-size: 13px;
+    color: gray;
+    font-weight: 350;
+}
+
 .likes {
     float: left;
     width: 30px;
@@ -45,11 +51,13 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position:center; 
-    bottom: 0;
     text-align: center;
     padding-top: 10px;
     color: white;
     opacity: 0.5;
+    bottom: 15px;
+    right: 17px;
+    position: absolute;
 }
 
 .likes:hover {
