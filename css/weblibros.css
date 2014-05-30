@@ -1,8 +1,12 @@
+/* esto sería mejor que fuera un div: main-content o algo */
+body {
+    text-align: justify;
+}
+
 .libro-box {
     display: inline-block;
     width: auto;
     position: relative;
-    float: left;
     height: 250px;
     padding: 10px;
     margin: 20px;
@@ -20,7 +24,7 @@
 }
 
 .libro-img a img {
-    max-width: 250px; 
+    max-width: 250px;
     max-height: 250px;
     width: 100%;
     float: left;
@@ -50,7 +54,7 @@
     height: 25px;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position:center; 
+    background-position:center;
     text-align: center;
     padding-top: 10px;
     color: white;
