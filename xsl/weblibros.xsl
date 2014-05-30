@@ -26,8 +26,8 @@
                 <p><b>Género: </b> <xsl:value-of select='datosPrincipales/genero' /></p>
                 <p class="numCapitulos"><b>Capitulos: </b> <xsl:value-of select='metadatos/numCapitulos' /> - <b>Páginas: </b> <xsl:value-of select='metadatos/numPaginas' /></p>
                 <a href="#">
-                    <div class="likes" style="background-image: url('img/heart.png');">
-                        <b><xsl:value-of select='social/likes' /></b>
+                    <div class="likes" id="{datosPrincipales/id}" style="background-image: url('img/heart.png');">
+                        <b id="{datosPrincipales/id}"><xsl:value-of select='social/likes' /></b>
                     </div>
                 </a>
             </div>

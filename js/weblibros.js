@@ -1,3 +1,9 @@
+$(".likes").click(function(e) {
+    e.stopPropagation();
+    $( ".likes" ).filter("#"+id).text(parseInt($( ".likes" ).filter("#"+id).text())+1);
+    $( ".likes" ).filter("#"+id).css("opacity", "1");
+});
+
 $(".libro-box").click(function() {
     id = $(this).attr('id');
     if ($( ".libro-head" ).filter("#"+id).css("display") == "none") {
