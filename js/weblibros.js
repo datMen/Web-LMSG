@@ -1,7 +1,10 @@
 $(".likes").click(function(e) {
     e.stopPropagation();
-    $(this).text(parseInt($(this).text())+1);
-    $(this).css("opacity", "1");
+    $(this).fadeOut( "fast" , 0, function() {
+        $(this).text(parseInt($(this).text())+1);
+        $(this).css("opacity", "1");
+    });
+    $(this).fadeIn( "fast" , 0, function() {});
 });
 
 $(".libro-box").click(function() {
