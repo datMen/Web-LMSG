@@ -1,7 +1,7 @@
 $(".likes").click(function(e) {
     e.stopPropagation();
-    $( ".likes" ).filter("#"+id).text(parseInt($( ".likes" ).filter("#"+id).text())+1);
-    $( ".likes" ).filter("#"+id).css("opacity", "1");
+    $(this).text(parseInt($(this).text())+1);
+    $(this).css("opacity", "1");
 });
 
 $(".libro-box").click(function() {
